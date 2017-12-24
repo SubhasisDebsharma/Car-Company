@@ -2,7 +2,7 @@
 
 A gocar company needs to develop an application for their customers. 
 
-** Classes:      
+## Classes:      
 
 1.Car( Abstract class) 
 2.SmallCar and SedanCar (extends abstract class Car) 
@@ -16,21 +16,21 @@ Fare is km *cost +base fare
 Base fare = 50 rs(INT_BASE_FARE = 50)// 
       
       
-* Car implements Serializable:    
+### Car implements Serializable:    
 Has (string regno,string type,string drivername)  Get all those values using getters and setters 
 Abstract method calculateFare(int kms)      
       
-* SmallCar:       
+### SmallCar:       
 Private regno and driver name 
 Type need to be small
 calculateFare(int kms)
 
-* SedanCar:    
+### SedanCar:    
 Private reg no and driver name 
 Type need to be Sedan 
 calculateFare(int kms)
 
-* CarManager:
+### CarManager:
 Private member:    
 	HashMap<string ,car> cars ;     
 Method:    
