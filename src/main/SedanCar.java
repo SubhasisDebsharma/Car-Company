@@ -1,11 +1,11 @@
 package main;
 
 public class SedanCar extends Car{
-/**
+	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-public float INIT_BASE_FARE;
+	public float INIT_BASE_FARE;
 	
 	public SedanCar() {
 		super.setType("Sedan");
