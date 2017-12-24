@@ -9,11 +9,11 @@ A gocar company needs to develop an application for their customers.
 3.CarManager(concrete class)    
 4.CarNotFound Exception class extends from java runtime exception    
 
-
-// Small car fare = 10rs/km 
-Sedan car fare = 15rs/km 
-Fare is km *cost +base fare 
-Base fare = 50 rs(INT_BASE_FARE = 50)// 
+   
+// Small car fare = 10rs/km    
+Sedan car fare = 15rs/km    
+Fare is km *cost +base fare    
+Base fare = 50 rs(INT_BASE_FARE = 50)//    
       
       
 ### Car implements Serializable:    
