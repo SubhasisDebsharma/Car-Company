@@ -4,10 +4,10 @@ A gocar company needs to develop an application for their customers.
 
 ## Classes:      
 
-1.Car( Abstract class) 
-2.SmallCar and SedanCar (extends abstract class Car) 
-3.CarManager(concrete class) 
-4.CarNotFound Exception class extends from java runtime exception 
+1.Car( Abstract class)    
+2.SmallCar and SedanCar (extends abstract class Car)    
+3.CarManager(concrete class)    
+4.CarNotFound Exception class extends from java runtime exception    
 
 
 // Small car fare = 10rs/km 
