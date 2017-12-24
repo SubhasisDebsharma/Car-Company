@@ -12,8 +12,8 @@ A gocar company needs to develop an application for their customers.
    
 // Small car fare = 10rs/km    
 Sedan car fare = 15rs/km    
-Fare is km *cost +base fare    
-Base fare = 50 rs(INT_BASE_FARE = 50)//    
+Fare is km * cost + base fare    
+Base fare = 50 rs(INIT_BASE_FARE = 50)//    
       
       
 ### Car implements Serializable:    
